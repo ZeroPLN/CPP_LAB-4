@@ -38,14 +38,17 @@
 
 ### Тестирование
 Интерфейс меню
-![alt text](image-1.png)
+<img width="702" height="337" alt="image" src="https://github.com/user-attachments/assets/b762992b-d128-4072-9ad5-263cbc7aa67c" />
+
 #### 1. Конструктор по умолчанию
 Проверяет создание объекта без параметров (инициализация нулями).
-![alt text](image.png)
+<img width="519" height="79" alt="image" src="https://github.com/user-attachments/assets/2f8d326c-a767-4506-95b3-8f135af8ea40" />
+
 
 #### 2. Конструктор с параметрами
 Проверено: обработка отрицательных рублей (-43), обработка копеек вне диапазона (-65), успешное создание при корректном вводе (213 руб. 32 коп.).
-![alt text](image-2.png)
+<img width="750" height="275" alt="image" src="https://github.com/user-attachments/assets/a020e222-6dcc-4e39-8fab-2e949d47f149" />
+
 
 #### 3. Конструктор копирования
 Создается объект 100 руб. 50 коп., затем его копия. Значения совпадают.
