@@ -53,7 +53,8 @@
 #### 3. Конструктор копирования
 Создается объект 100 руб. 50 коп., затем его копия. Значения совпадают.
 
-![alt text](image-3.png)
+<img width="469" height="93" alt="image" src="https://github.com/user-attachments/assets/82ea326c-75e2-4216-8852-f2eabf7ae9f2" />
+
 
 #### 4. Конструктор из double
 Проверено: 
@@ -61,9 +62,10 @@
 - 14.5555 → 14 руб. 56 коп. (корректное математическое округление);
 - обработка отрицательных чисел (-53) и ошибок ввода (авыв) с повторным запросом.
 
-![alt text](image-4.png)
-![alt text](image-5.png)
-![alt text](image-6.png)
+<img width="551" height="97" alt="image" src="https://github.com/user-attachments/assets/55866050-b801-4053-b500-f61dfa90e57c" />
+<img width="556" height="93" alt="image" src="https://github.com/user-attachments/assets/d1cdd5e4-a357-49a5-9d9a-6f7897174909" />
+<img width="693" height="224" alt="image" src="https://github.com/user-attachments/assets/00c0a72f-e02a-4560-8e58-6dc3c08ae5b9" />
+
 
 #### 5. Метод subtract
 Проверено: 
@@ -71,17 +73,20 @@
 - перехват ошибки при отрицательных рублях (-51);
 - успешное вычитание (15:45 - 5:15 = 10:30).
 
-![alt text](image-7.png)
+<img width="775" height="712" alt="image" src="https://github.com/user-attachments/assets/a43c3b7f-64f1-4203-a93e-8757cf8704dd" />
+
 
 #### 6. Метод equals
 Проверено: обработка отрицательных рублей (-4) и копеек (-6), а также успешное сравнение двух сумм (2:56 и 8:24 — не равны).
 
-![alt text](image-8.png)
+<img width="765" height="705" alt="image" src="https://github.com/user-attachments/assets/b6da4c3d-154f-413b-825d-24cb1d8d8fc7" />
+
 
 #### 7. Сеттеры
 Проверено: повторный запрос при вводе отрицательных рублей (-95) и копеек (-8), успешное изменение с 100:50 на 5:65.
 
-![alt text](image-9.png)
+<img width="830" height="331" alt="image" src="https://github.com/user-attachments/assets/19a9002a-4fa5-49e8-a548-e22ecd8fc8cb" />
+
 
 
 #### 8. Валидация и is_valid()
@@ -92,5 +97,6 @@
 4. Сеттер set_kopeks(123) — выброшено invalid_argument.
 5. Вызов is_valid() для корректного объекта (5:6) — вернул true.
 
-![alt text](image-10.png)
-![alt text](image-11.png)
+<img width="933" height="702" alt="image" src="https://github.com/user-attachments/assets/63438026-e0fe-4271-b096-7263a6e51093" />
+<img width="819" height="318" alt="image" src="https://github.com/user-attachments/assets/27b3642d-34da-445e-949b-a60bde5312b8" />
+
